@@ -1,0 +1,12 @@
+nano kadai_005.txt
+mkdir git_challenge
+cd git_challenge
+git init
+echo "" > hello_world.txt
+echo "Hello, world!" >> hello_world.txt
+git add hello_world.txt
+git commit -m "Add Hello, world!"
+echo "こんにちは、世界！" >> hello_world.txt
+git add hello_world.txt
+git commit -m "Add こんにちは、世界！"
+git log --oneline
